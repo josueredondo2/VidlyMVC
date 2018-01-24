@@ -1,0 +1,6 @@
+﻿ctrl+tab cambio de pagina 
+Bootswatch: temas para bootstrap
+forma de pasar parametros http://localhost:60089/movies/edit?id=1
+http://localhost:60089/movies/?pageindex=2&sortBy=ReleaseDate
+
+ctrl+m+s colapsa un elemento del html

@@ -20,6 +20,11 @@ namespace Vidly.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        //Crea los customers desde entity code first luego se ejecuta el administrador de paquetes
+        //add-migration InitialModel - force
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Movie> Movies{ get; set; }
+
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {

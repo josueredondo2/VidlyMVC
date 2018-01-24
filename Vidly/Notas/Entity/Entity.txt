@@ -1,0 +1,6 @@
+﻿Instalar entity framework desde nuget package
+Activar: code-first migrations
+Realizar primera migracion : add-migration '(Nombre del modelo)'
+Crea los customers desde entity code first luego se ejecuta el administrador de paquetes add-migration InitialModel - force
+Luego se actualiza la base de datos update-database
+Agregar shorcut del pm
