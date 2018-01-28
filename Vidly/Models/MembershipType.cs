@@ -15,5 +15,10 @@ namespace Vidly.Models
         [Required]
         public string Name { get; set; }
 
+        //Remplaza enums, hace codigo mas limpio
+        public static readonly byte UnKnown = 0;
+        public static readonly byte PayAsYouGo= 0;
+
+
     }
 }

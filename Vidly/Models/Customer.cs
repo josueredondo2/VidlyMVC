@@ -11,7 +11,7 @@ namespace Vidly.Models
         public int Id { get; set; }
 
         //No puede ser null
-        [Required]
+        [Required(ErrorMessage ="Please enter customer's name.")]
         //Define la longitud del campo
         [StringLength(255)]
         public string Name { get; set; }
@@ -24,6 +24,7 @@ namespace Vidly.Models
         public byte MembershipTypeId { get; set; }
 
         //Define el nombre a mostrar
+        [Min18YearsIfAMember]
         [Display(Name ="Date of Birth")]
         public DateTime? Birthdate { get; set; }
     }
