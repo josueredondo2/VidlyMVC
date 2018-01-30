@@ -1,0 +1,5 @@
+﻿ install-package automapper -version:4.1
+ Agregar clase a app_start
+ Crear clase MappingProfile
+ Mapea las clases
+ Agrega la inializacion a globaal.asax
