@@ -4,3 +4,8 @@ forma de pasar parametros http://localhost:60089/movies/edit?id=1
 http://localhost:60089/movies/?pageindex=2&sortBy=ReleaseDate
 
 ctrl+m+s colapsa un elemento del html
+leer acerca de bootbox
+install-package bootbox -version:4.3.0
+
+datatables
+install-package jquery.datatables -version:1.10.11
