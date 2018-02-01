@@ -19,6 +19,8 @@ namespace Vidly.DTO
         public bool IsSuscribedToNewsletter { get; set; }
 
         public byte MembershipTypeId { get; set; }
+        //Esta propiedad se debe de llamar igual al modelo
+        public MembershipTypeDto MembershipType { get; set; }
 
         public DateTime? Birthdate { get; set; }
     }

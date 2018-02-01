@@ -208,6 +208,8 @@
     <Compile Include="Controllers\API\MoviesController.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="DTO\CustomerDTO.cs" />
+    <Compile Include="DTO\GenreDto.cs" />
+    <Compile Include="DTO\MembershipTypeDto.cs" />
     <Compile Include="DTO\MovieDto.cs" />
     <Compile Include="Migrations\201801240533462_AddMovieModel1.cs" />
     <Compile Include="Migrations\201801240533462_AddMovieModel1.Designer.cs">
@@ -413,6 +415,7 @@
     <Content Include="Notas\jQuery.pdf" />
     <Content Include="Content\DataTables\css\mixins.scss" />
     <Content Include="Content\DataTables\css\common.scss" />
+    <Content Include="Notas\Client-side-Development-Cheat-Sheet.pdf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\DataTables\autoFill.bootstrap.js" />
     <Content Include="Scripts\DataTables\autoFill.bootstrap.min.js" />
