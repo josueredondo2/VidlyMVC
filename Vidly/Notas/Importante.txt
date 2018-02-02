@@ -9,3 +9,14 @@ install-package bootbox -version:4.3.0
 
 datatables
 install-package jquery.datatables -version:1.10.11
+
+[Authorize]
+sobre toda la clase esfuerza a que tenga que el usuario estar autenticado para poder acceder a las acciones del controlador
+
+Activar auth por redes sociales
+1- activar ssl
+2-cambiar la url del proyecto por la que te da el ssl
+3-ir a developers.facebook y registrar la cuenta, luego poner la url en la pag de face
+https://termsfeed.com/blog/wp-content/uploads/2017/04/privacy-policy-url-facebook-app-instructions-termsfeed.pdf
+https://es.stackoverflow.com/questions/111806/error-en-login-a-web-con-facebook-en-php
+Investigar como hacer esto

@@ -64,6 +64,10 @@ namespace Vidly.Models
 
     public class RegisterViewModel
     {
+        //Se agrega este campo al modelo para que sea tomado en cuenta
+        [Required]
+        [Display(Name = "Driving License")]
+        public string DrivingLicense { get; set; }
         [Required]
         [EmailAddress]
         [Display(Name = "Correo electrónico")]

@@ -151,7 +151,11 @@ namespace Vidly.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                //Se agrega el nuevo campo de registro
+                 var user = new ApplicationUser { UserName = model.Email
+                    , Email = model.Email,
+                    DrivingLicense = model.DrivingLicense
+                };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
